@@ -21,7 +21,7 @@ namespace dummyusingCLI
         {
             _logger.LogInformation("Dummytrigger got executed");
             var response = req.CreateResponse(HttpStatusCode.OK);
-            response.WriteString("Hello World");
+            response.WriteString("Hello from Github actions");
             return response;
         }
     }
